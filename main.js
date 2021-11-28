@@ -16,8 +16,6 @@ submitBtn.addEventListener("click", async (event) => {
         return;
     }
 
-    console.log(Loading.prototype);
-
     Loading.setLoading();
 
     const userNames = getUserNamesFromString(input.value);
